@@ -1,0 +1,4 @@
+interface:
+  display_name: "西子科技口播"
+  short_description: "按语义组织人物、卡片、海报配色与连续动效，管理免费素材选用和全片交付"
+  default_prompt: "请用 $xizi-tech-talking-head 按已提供的原片和本期音乐制作科技口播，先读取规范与流程。"
