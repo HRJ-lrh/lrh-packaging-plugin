@@ -1,16 +1,18 @@
-# 西子科技口播 Skill
+# lrh的包装插件
 
-把真人口播制作中的审美要求整理为可执行、可复用的工作流。公开版 v1.0.0，基于2026-11-03规则。
+把真人口播制作中的审美要求整理为可执行、可复用的工作流。公开版 v1.0.1，基于2026-11-03公开版规则，2026-11-06统一更名。
 
 ## 下载与安装
 
-在 Releases 下载 `xizi-tech-talking-head-v1.0.0.zip`，解压后将整个 `xizi-tech-talking-head` 文件夹放到 `~/.codex/skills/`（Windows为用户目录下 `.codex/skills/`）。自定义 CODEX_HOME 时使用其 `skills/` 子目录。有同名目录先备份，勿盲目覆盖。重新打开会话后调用。
+在 Releases 下载 `lrh-packaging-plugin-v1.0.1.zip`，解压后将整个 `lrh-packaging-plugin` 文件夹放到 `~/.codex/skills/`（Windows为用户目录下 `.codex/skills/`）。自定义 CODEX_HOME 时使用其 `skills/` 子目录。有同名目录先备份，勿盲目覆盖。重新打开会话后调用。
 
-也可下载本仓库ZIP，仅复制 `skills/xizi-tech-talking-head` 文件夹。支持SKILL.md的其他助手可按其安装方式使用，本包不承诺各工具行为完全一致。
+也可下载本仓库ZIP，仅复制 `skills/lrh-packaging-plugin` 文件夹。支持SKILL.md的其他助手可按其安装方式使用，本包不承诺各工具行为完全一致。
+
+旧版用户升级时，用新目录替换旧的 `xizi-tech-talking-head` 目录，避免同时加载两个入口。
 
 ## 调用示例
 
-> 请使用 $xizi-tech-talking-head 制作本次科技口播。原片和背景音乐已提供，本期横屏16:9。请先读取规范与流程，继承已确认选择，直接制作全片。网络素材通过MotionGit免费API提供候选、来源、许可和署名要求，等我选定后再下载或引用，不付费生成。
+> 请使用 $lrh-packaging-plugin 制作本次科技口播。原片和背景音乐已提供，本期横屏16:9。请先读取规范与流程，继承已确认选择，直接制作全片。网络素材通过MotionGit免费API提供候选、来源、许可和署名要求，等我选定后再下载或引用，不付费生成。
 
 首次使用提供：原片、本期BGM、画幅、可用制作工程/目标软件，可选参考。字体可继承使用者上次选择；首次使用可建议得意黑，字体文件与许可自行核实。
 

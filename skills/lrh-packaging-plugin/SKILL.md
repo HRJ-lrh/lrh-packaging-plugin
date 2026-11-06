@@ -1,9 +1,9 @@
 ---
-name: xizi-tech-talking-head
+name: lrh-packaging-plugin
 description: 制作或返修科技与AI知识真人口播视频，按语义设计人物关键帧、卡片、海报配色和连续动效，并管理免费网络素材选择与交付检查。适用于已有原片的口播包装。
 ---
 
-# 西子科技口播制作
+# lrh的包装插件
 
 先读取[风格规范](references/style.md)与[制作流程](references/workflow.md)。用户本期明确要求优先于本Skill默认；继承已选项，返修保留无关合格内容。
 
