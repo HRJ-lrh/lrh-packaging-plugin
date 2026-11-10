@@ -1,0 +1,11 @@
+<!doctype html><html><meta charset="utf-8"><title>LRH V6 modules</title>
+<style>
+@font-face{font-family:Title;src:url('/reference-library/typography/fonts/smileysans/SmileySans-Oblique.ttf')}
+@font-face{font-family:Body;src:url('/reference-library/typography/fonts/notosanssc/NotoSansSC[wght].ttf');font-weight:100 900}
+body{margin:0;background:#e7f2fa;color:#243e62;font:16px sans-serif}canvas{display:block;width:100vw}video{display:none}
+#controls{padding:12px}#seek{width:60%}#status{white-space:pre-wrap;padding:12px}
+</style>
+<canvas id="film"></canvas><video id="src" muted></video><video id="mask" muted></video>
+<div id="controls"><button id="play" disabled>播放 / 暂停</button><input id="seek" type="range" min="0" step="0.01666667" value="0" disabled></div>
+<div id="status">正在准备 V6 镜头和场景交接…</div>
+<script type="module" src="adapter.mjs"></script></html>

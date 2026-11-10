@@ -1,0 +1,129 @@
+{
+  "date": "2026-11-10",
+  "platform": "macOS arm64",
+  "node": "26.5.1",
+  "sameInputs": true,
+  "sourceFiles": {
+    "scene-v3.js": "c1bb227d34d69750428b64448fd134830dbe43b57aa1aee6c1a7f3507933718d",
+    "scene-v4.js": "db4c26a6fe1f6db8c0d36d7c2605174095ca12324ff3f86d6806509e11584b1c",
+    "scene-v6.js": "a80bda2a97ee2017a949fb2c0ca0b6e73c62f6a0ea22221339c81f00155c2906"
+  },
+  "checks": [
+    {
+      "width": 640,
+      "height": 360,
+      "stride": 1,
+      "results": [
+        {
+          "module": "presenter-reframe",
+          "width": 640,
+          "height": 360,
+          "fps": 60,
+          "outputFrames": 150,
+          "comparedFrames": 150,
+          "pixelIdenticalPNG": 150,
+          "failures": []
+        },
+        {
+          "module": "workflow-merge",
+          "width": 640,
+          "height": 360,
+          "fps": 60,
+          "outputFrames": 670,
+          "comparedFrames": 670,
+          "pixelIdenticalPNG": 670,
+          "failures": []
+        },
+        {
+          "module": "result-takeover",
+          "width": 640,
+          "height": 360,
+          "fps": 60,
+          "outputFrames": 360,
+          "comparedFrames": 360,
+          "pixelIdenticalPNG": 360,
+          "failures": []
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "stride": 60,
+      "results": [
+        {
+          "module": "presenter-reframe",
+          "width": 1280,
+          "height": 720,
+          "fps": 60,
+          "outputFrames": 150,
+          "comparedFrames": 4,
+          "pixelIdenticalPNG": 4,
+          "failures": []
+        },
+        {
+          "module": "workflow-merge",
+          "width": 1280,
+          "height": 720,
+          "fps": 60,
+          "outputFrames": 670,
+          "comparedFrames": 13,
+          "pixelIdenticalPNG": 13,
+          "failures": []
+        },
+        {
+          "module": "result-takeover",
+          "width": 1280,
+          "height": 720,
+          "fps": 60,
+          "outputFrames": 360,
+          "comparedFrames": 7,
+          "pixelIdenticalPNG": 7,
+          "failures": []
+        }
+      ]
+    },
+    {
+      "width": 3840,
+      "height": 2160,
+      "stride": 60,
+      "results": [
+        {
+          "module": "presenter-reframe",
+          "width": 3840,
+          "height": 2160,
+          "fps": 60,
+          "outputFrames": 150,
+          "comparedFrames": 4,
+          "pixelIdenticalPNG": 4,
+          "failures": []
+        },
+        {
+          "module": "workflow-merge",
+          "width": 3840,
+          "height": 2160,
+          "fps": 60,
+          "outputFrames": 670,
+          "comparedFrames": 13,
+          "pixelIdenticalPNG": 13,
+          "failures": []
+        },
+        {
+          "module": "result-takeover",
+          "width": 3840,
+          "height": 2160,
+          "fps": 60,
+          "outputFrames": 360,
+          "comparedFrames": 7,
+          "pixelIdenticalPNG": 7,
+          "failures": []
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Same machine and browser only",
+    "No source footage, captions or audio included",
+    "No cross-platform pixel equivalence or new-film acceptance claimed"
+  ]
+}

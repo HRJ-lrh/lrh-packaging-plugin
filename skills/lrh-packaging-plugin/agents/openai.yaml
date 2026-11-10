@@ -1,4 +1,4 @@
 interface:
   display_name: "lrh的包装插件"
-  short_description: "配套Agent Motion环境检查、原创连续动效样例与科技口播视觉验收流程"
+  short_description: "V6人物收窗、流程汇聚与结果接管模块，配套运行环境与检查流程"
   default_prompt: "请用 $lrh-packaging-plugin 按已提供的原片和本期音乐制作科技口播，先核实Agent Motion运行环境，再读取规范、流程和视觉质量要求。"

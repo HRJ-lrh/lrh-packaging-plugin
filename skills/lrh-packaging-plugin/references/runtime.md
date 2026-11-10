@@ -1,9 +1,9 @@
-# 运行环境与迁移 · v1.1.0
+# 运行环境与迁移 · v1.2.0
 
 ## 两种安装包
 
-- `lrh-packaging-plugin-v1.1.0-full.zip`：Skill、原创示例及锁定版本的 Agent Motion 运行源码归档。推荐换电脑使用。约 53 MB；这不是依赖、浏览器和模型全部离线的安装包。
-- `lrh-packaging-plugin-v1.1.0.zip` / Git 仓库：轻量 Skill、脚本和示例；`fetch` 从同一 GitHub Release 下载运行源码并核对 SHA-256。
+- `lrh-packaging-plugin-v1.2.0-full.zip`：Skill、V6模块、原创示例及锁定版本的 Agent Motion 运行源码归档。推荐换电脑使用。约 53 MB；这不是依赖、浏览器和模型全部离线的安装包。
+- `lrh-packaging-plugin-v1.2.0.zip` / Git 仓库：轻量 Skill、V6模块、脚本和示例；`fetch` 从同一 GitHub Release 下载运行源码并核对 SHA-256。
 
 解压后把 `lrh-packaging-plugin` 放入助手的 Skill 目录。Codex 默认是用户目录下 `.codex/skills/`；自定义 CODEX_HOME 时使用其 `skills/`。先备份同名旧目录，不合并新旧文件。引擎和每期工程应放到独立、可写的工作目录，不能写死作者的电脑路径。
 
@@ -11,7 +11,7 @@
 
 Skill 自有文本、脚本和原创验证场景采用 MIT。Agent Motion 来源为 [erduo1998-cell/agent-motion](https://github.com/erduo1998-cell/agent-motion)，固定提交 `23ccf5e28e59bf030a6ccc9f174bf2bb260b3c8b`，采用 [Motion Craft Community License 1.0](https://github.com/erduo1998-cell/agent-motion/blob/23ccf5e28e59bf030a6ccc9f174bf2bb260b3c8b/LICENSE)：公开授权限非商业用途，商业使用须取得上游授权。不能移除或用本仓库 MIT 覆盖其 LICENSE、NOTICE 与第三方许可。
 
-运行源码取自该公开提交，代码未修改；排除 `docs/media/` 的上游演示媒体，新增 `LRH-SOURCE.json` 记录来源与逐文件哈希。没有作者个人原片、私人参考库、BGM、历史生产工程或凭据。上游字体保留各自许可；抠像模型由安装器下载并保留自身许可。普通浏览器示例不代表真人、头发、遮罩和语音同步已验证。
+运行源码取自该公开提交，代码未修改；排除 `docs/media/` 的上游演示媒体，新增 `LRH-SOURCE.json` 记录来源与逐文件哈希。上游归档没有作者个人原片、私人参考库、BGM、历史生产工程或凭据。v1.2.0另外在Skill资源中发布三个V6模块及其来源哈希；仅迁移代码，不携带私人媒体。上游字体保留各自许可；抠像模型由安装器下载并保留自身许可。普通浏览器示例不代表真人、头发、遮罩和语音同步已验证。
 
 ## 首次启动
 
@@ -45,3 +45,7 @@ node scripts/render-demo.mjs --engine "../lrh-agent-motion" --out "../lrh-demo-c
 ## 与其他实现的分工
 
 Python、ASS/libass、FFmpeg 可继续承担转写整理、字幕、素材处理和最终合成。主UI若要求统一空间、材质、视差和对象交接，应由能实际表现这些关系的场景实现。用户指定其他宿主时按同样画面目标验证，不为了工具名称迁移合格工程。工具链说明须指向实际源码、命令和输出；不要用安装清单冒充执行日志。
+
+## 运行实际 V6 模块
+
+完成环境准备后，按[V6模块说明](v6-modules.md)运行 `init-v6.mjs` 与 `render-v6.mjs`。旧 `render-demo.mjs` 仍渲染原创8秒验证场景，不会自动变成V6；不要把两个入口混淆。
