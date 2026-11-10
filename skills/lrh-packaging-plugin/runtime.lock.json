@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "name": "agent-motion",
+  "commit": "23ccf5e28e59bf030a6ccc9f174bf2bb260b3c8b",
+  "upstream": "https://github.com/erduo1998-cell/agent-motion",
+  "archive": "agent-motion-runtime-23ccf5e.tar.gz",
+  "url": "https://github.com/HRJ-lrh/lrh-packaging-plugin/releases/download/v1.1.0/agent-motion-runtime-23ccf5e.tar.gz",
+  "sha256": "d6eb2accec43f4913e461ffb4d4d77c179de9d45a6341176f3bcdcb14015bd58",
+  "bytes": 52581758,
+  "license": "LicenseRef-Motion-Craft-Noncommercial",
+  "licenseUrl": "https://github.com/erduo1998-cell/agent-motion/blob/23ccf5e28e59bf030a6ccc9f174bf2bb260b3c8b/LICENSE",
+  "nodeMajorMinimum": 22
+}

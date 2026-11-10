@@ -1,4 +1,4 @@
 interface:
   display_name: "lrh的包装插件"
-  short_description: "按语义组织人物、卡片、海报配色与连续动效，管理免费素材选用和全片交付"
-  default_prompt: "请用 $lrh-packaging-plugin 按已提供的原片和本期音乐制作科技口播，先读取规范与流程。"
+  short_description: "配套Agent Motion环境检查、原创连续动效样例与科技口播视觉验收流程"
+  default_prompt: "请用 $lrh-packaging-plugin 按已提供的原片和本期音乐制作科技口播，先核实Agent Motion运行环境，再读取规范、流程和视觉质量要求。"
