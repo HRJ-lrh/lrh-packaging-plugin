@@ -4,6 +4,12 @@
 
 v1.0.1 提供规范；v1.1.0 补齐运行环境与原创验证场景；v1.2.0 增加实际 V6 模块。安装成功仍不等于任意新口播自动达到原片效果。
 
+## 最新规范同步（2026-11-11）
+
+主分支已同步最新[规范](skills/lrh-packaging-plugin/references/style.md)、[流程](skills/lrh-packaging-plugin/references/workflow.md)、[参考目录](skills/lrh-packaging-plugin/references/reference-catalog.md)和[横竖安全框](skills/lrh-packaging-plugin/references/safe-zones/README.md)。参考是最低质量标准；强调项须实际执行；横版字幕在底部两条线之间，竖版字幕在画面下三分线处；封面完整执行内置imagegen与三比例流程。
+
+**现有v1.2.0 Release ZIP是此前发行快照，不含这次文档更新。** 获取最新规则请下载主分支源码，使用其中`skills/lrh-packaging-plugin`目录；运行脚本和V6模块保持原有能力。本次未重新发布运行包，未声称旧模块已按新安全框调整或完成新成片质量验收。
+
 ## 下载与安装
 
 从 [v1.2.0 Release](https://github.com/HRJ-lrh/lrh-packaging-plugin/releases/tag/v1.2.0) 选择：
