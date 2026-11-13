@@ -8,9 +8,9 @@ v1.0.1 提供规范；v1.1.0 补齐运行环境与原创验证场景；v1.2.0 �
 
 新增独立 Mac 应用：选择视频、文案和音乐，填写本期要求与画幅，保存任务并打开 Codex 客户端。任务自动复制到剪贴板，需在客户端聊天中粘贴并发送后开始制作。不会打开终端或自动发送任务。
 
-[下载启动器](https://github.com/HRJ-lrh/lrh-packaging-plugin/releases/tag/launcher-v1.0.0) · [使用与构建说明](launcher/macos/README.md)
+[下载技能＋Mac启动器整合包](https://github.com/HRJ-lrh/lrh-packaging-plugin/releases/download/launcher-v1.0.0/lrh-packaging-plugin-with-mac-launcher.zip) · [使用与构建说明](launcher/macos/README.md)
 
-启动器独立版本，不改变下面的 v1.2.0 引擎运行包。
+推荐下载整合包：内含主分支 Skill、Mac 启动器、v1.2.0 完整包附带的运行源码和示例。解压后的说明列出安装步骤；依赖仍需首次配置。单独启动器 ZIP 保留供已有技能的用户更新。
 
 ## 最新规范同步（2026-11-11）
 
