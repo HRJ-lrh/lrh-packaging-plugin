@@ -4,6 +4,14 @@
 
 v1.0.1 提供规范；v1.1.0 补齐运行环境与原创验证场景；v1.2.0 增加实际 V6 模块。安装成功仍不等于任意新口播自动达到原片效果。
 
+## Mac 制作启动器（2026-11-13）
+
+新增独立 Mac 应用：选择视频、文案和音乐，填写本期要求与画幅，保存任务并打开 Codex 客户端。任务自动复制到剪贴板，需在客户端聊天中粘贴并发送后开始制作。不会打开终端或自动发送任务。
+
+[下载启动器](https://github.com/HRJ-lrh/lrh-packaging-plugin/releases/tag/launcher-v1.0.0) · [使用与构建说明](launcher/macos/README.md)
+
+启动器独立版本，不改变下面的 v1.2.0 引擎运行包。
+
 ## 最新规范同步（2026-11-11）
 
 主分支已同步最新[规范](skills/lrh-packaging-plugin/references/style.md)、[流程](skills/lrh-packaging-plugin/references/workflow.md)、[参考目录](skills/lrh-packaging-plugin/references/reference-catalog.md)和[横竖安全框](skills/lrh-packaging-plugin/references/safe-zones/README.md)。参考是最低质量标准；强调项须实际执行；横版字幕在底部两条线之间，竖版字幕在画面下三分线处；封面完整执行内置imagegen与三比例流程。
